@@ -1,0 +1,37 @@
+.wrap {
+    max-width: 600px;
+}
+
+.wrap h1 {
+    margin-bottom: 30px;
+}
+
+.wrap label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+.wrap input[type="text"] {
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+
+.wrap input[type="submit"] {
+    cursor: pointer;
+    background-color: #0073aa;
+    border-color: #0073aa;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 3px;
+    border-width: 1px;
+    border-style: solid;
+    padding: 4px 12px;
+    margin-top: 10px;
+}
+
+.wrap input[type="submit"]:hover {
+    background-color: #006799;
+    border-color: #006799;
+}
